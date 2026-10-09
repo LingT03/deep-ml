@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:51:20.887Z",
+  "generated_at": "2026-10-10T20:51:22.660Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -76,6 +76,32 @@
       "path": "problems/0010-calculate-covariance-matrix",
       "first_solved_at": "2026-10-07T21:49:48.267Z",
       "last_pushed_at": "2026-10-07T21:49:48.267Z",
+      "language": "python",
+      "lines": 17
+    },
+    "problem:8": {
+      "kind": "problem",
+      "id": "8",
+      "title": "Calculate 2x2 Matrix Inverse",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/8",
+      "path": "problems/0008-calculate-2x2-matrix-inverse",
+      "first_solved_at": "2026-10-09T05:46:20.890Z",
+      "last_pushed_at": "2026-10-09T05:46:20.890Z",
+      "language": "python",
+      "lines": 25
+    },
+    "problem:6": {
+      "kind": "problem",
+      "id": "6",
+      "title": "Calculate Eigenvalues of a Matrix",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/6",
+      "path": "problems/0006-calculate-eigenvalues-of-a-matrix",
+      "first_solved_at": "2026-10-09T14:45:20.072Z",
+      "last_pushed_at": "2026-10-09T14:45:20.072Z",
       "language": "python",
       "lines": 17
     }
