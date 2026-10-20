@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:44:55.547Z",
+  "generated_at": "2026-10-20T22:45:46.376Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -257,9 +257,9 @@
       "url": "https://www.deep-ml.com/problems/1109",
       "path": "problems/1109-your-first-join",
       "first_solved_at": "2026-10-20T22:42:28.012Z",
-      "last_pushed_at": "2026-10-20T22:44:54.882Z",
+      "last_pushed_at": "2026-10-20T22:45:45.900Z",
       "language": "sql",
-      "lines": 5
+      "lines": 6
     }
   }
 }
