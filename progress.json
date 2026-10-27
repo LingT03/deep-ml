@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:16:44.245Z",
+  "generated_at": "2026-10-27T22:19:08.056Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -322,7 +322,7 @@
       "url": "https://www.deep-ml.com/problems/1111",
       "path": "problems/1111-top-3-salaries-per-department",
       "first_solved_at": "2026-10-27T22:15:26.461Z",
-      "last_pushed_at": "2026-10-27T22:16:43.712Z",
+      "last_pushed_at": "2026-10-27T22:19:07.462Z",
       "language": "sql",
       "lines": 8
     }
