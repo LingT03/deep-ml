@@ -4,4 +4,5 @@ FROM (
     DENSE_RANK() OVER (PARTITION BY department ORDER BY salary DESC) AS rnk
     FROM employees
 ) ranked
-where rnk <= 3
+WHERE rnk <= 3
+ORDER BY department, salary DESC, name;
