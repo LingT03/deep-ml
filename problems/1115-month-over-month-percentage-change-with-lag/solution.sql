@@ -1,16 +1,13 @@
 -- your query
-SELECT 
+with monthly_sales as (
+    select date_trunc('month', sale_date) as month,
+    sum(amount) as total
+    from sales
+    group by month
+)
+select
     month,
-    current_total AS total,
-    ROUND(
-        ((current_total - LAG(current_total) OVER (ORDER BY month)) / 
-        LAG(current_total) OVER (ORDER BY month)) * 100, 
-    2) AS pct_change
-FROM (
-    SELECT 
-        DATE_TRUNC('month', sale_date) AS month,
-        SUM(amount) AS current_total
-    FROM sales
-    GROUP BY DATE_TRUNC('month', sale_date)
-) AS monthly_sales
-ORDER BY month;
+    total,
+    round((total - lag(total) over (order by month)) / (lag(total) over (order by month)) * 100 
+        , 2) as pct_change
+from monthly_sales
