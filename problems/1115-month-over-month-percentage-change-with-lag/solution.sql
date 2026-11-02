@@ -7,7 +7,6 @@ SELECT
         LAG(current_total) OVER (ORDER BY month)) * 100, 
     2) AS pct_change
 FROM (
-    -- Inner query: Aggregate the total amount per month
     SELECT 
         DATE_TRUNC('month', sale_date) AS month,
         SUM(amount) AS current_total
