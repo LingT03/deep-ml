@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**30** solved · 30 problems · 0 labs · 0 math
+**31** solved · 31 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -42,6 +42,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Rank Rows Within Partitions Using Window Functions](https://www.deep-ml.com/problems/1114) | medium | 2026-11-01 | [solution](problems/1114-rank-rows-within-partitions-using-window-functions) |
 | [Running Total and Moving Average with Window Frames](https://www.deep-ml.com/problems/1116) | medium | 2026-11-04 | [solution](problems/1116-running-total-and-moving-average-with-window-frames) |
 | [Top-3 Salaries Per Department](https://www.deep-ml.com/problems/1111) | medium | 2026-10-27 | [solution](problems/1111-top-3-salaries-per-department) |
+| [Values Appearing Three or More Times Consecutively](https://www.deep-ml.com/problems/1117) | medium | 2026-11-04 | [solution](problems/1117-values-appearing-three-or-more-times-consecutively) |
 
 ---
 
