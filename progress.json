@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:22:10.656Z",
+  "generated_at": "2026-11-04T06:36:46.699Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -416,6 +416,19 @@
       "last_pushed_at": "2026-11-04T06:22:09.997Z",
       "language": "sql",
       "lines": 13
+    },
+    "problem:1118": {
+      "kind": "problem",
+      "id": "1118",
+      "title": "Days Warmer Than the Previous Day",
+      "difficulty": "medium",
+      "category": "Sql",
+      "url": "https://www.deep-ml.com/problems/1118",
+      "path": "problems/1118-days-warmer-than-the-previous-day",
+      "first_solved_at": "2026-11-04T06:36:46.136Z",
+      "last_pushed_at": "2026-11-04T06:36:46.136Z",
+      "language": "sql",
+      "lines": 12
     }
   }
 }
