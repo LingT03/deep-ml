@@ -1,15 +1,13 @@
--- your query
-with sticky_users as (
-    select
-        user_id,
-        login_date,
-        min(login_date) over (partition by user_id) as first_login,
-        lead(login_date, 1) over (partition by user_id order by login_date) as repeat_login
-    from logins
-)
 select
-distinct user_id,
-first_login
-from sticky_users
-where repeat_login = login_date + 1 
-order by user_id asc 
+a.user_id,
+min(a.login_date) as first_login
+from logins a
+where a.user_id in (
+    select a.user_id
+    from logins a
+    join logins b
+        on a.user_id = b.user_id
+    and b.login_date = a.login_date + 1 
+)
+group by a.user_id
+order by a.user_id asc
