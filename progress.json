@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T16:47:11.145Z",
+  "generated_at": "2026-11-06T16:50:44.692Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -439,9 +439,9 @@
       "url": "https://www.deep-ml.com/problems/1120",
       "path": "problems/1120-highest-total-daily-order-cost-in-a-date-range",
       "first_solved_at": "2026-11-06T16:47:10.445Z",
-      "last_pushed_at": "2026-11-06T16:47:10.445Z",
+      "last_pushed_at": "2026-11-06T16:50:44.068Z",
       "language": "sql",
-      "lines": 12
+      "lines": 10
     }
   }
 }
