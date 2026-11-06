@@ -1,12 +1,15 @@
-WITH top_workers AS (
-    SELECT 
-        w.name AS name,
-        w.salary AS salary,
-        t.title AS job_title
-    FROM workers w
-    JOIN titles t ON w.title_id = t.title_id
+-- your query
+with top_workers as (
+    SELECT
+        w.name as name,
+        w.salary as salary,
+        t.title as job_title
+    from workers w
+    join titles t
+    on w.title_id = t.title_id 
     WHERE w.salary = (SELECT MAX(salary) FROM workers)
-)
-SELECT name, salary, job_title 
-FROM top_workers
-ORDER BY name ASC;
+    )
+select
+name, salary, job_title
+from top_workers
+order by name asc
