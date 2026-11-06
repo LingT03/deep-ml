@@ -4,7 +4,7 @@ with top_workers as (
         w.name as name,
         w.salary as salary,
         t.title as job_title,
-    rank() over (order by w.salary desc) as rnk
+    dense_rank() over (order by w.salary desc) as rnk
     from workers w
     join titles t
     on w.title_id = t.title_id 

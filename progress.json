@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:28:59.628Z",
+  "generated_at": "2026-11-06T17:29:49.767Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -452,7 +452,7 @@
       "url": "https://www.deep-ml.com/problems/1121",
       "path": "problems/1121-highest-paid-workers-with-title-join-and-ties",
       "first_solved_at": "2026-11-06T17:25:12.880Z",
-      "last_pushed_at": "2026-11-06T17:28:59.081Z",
+      "last_pushed_at": "2026-11-06T17:29:49.271Z",
       "language": "sql",
       "lines": 17
     }
